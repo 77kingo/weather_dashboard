@@ -1,0 +1,44 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(to bottom, #85c1e9, #d4e6f1);
+    text-align: center;
+    color: #333;
+  }
+  
+  header {
+    padding: 20px;
+    background-color: #2874a6;
+    color: white;
+  }
+  
+  header input {
+    padding: 10px;
+    margin: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+  }
+  
+  header button {
+    padding: 10px 15px;
+    background-color: #1b4f72;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  header button:hover {
+    background-color: #154360;
+  }
+  
+  #weather-display {
+    margin-top: 20px;
+    padding: 20px;
+    background-color: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    display: inline-block;
+    border-radius: 10px;
+  }
+  
